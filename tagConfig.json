@@ -1,0 +1,46 @@
+[
+    {
+        "id": "university",
+        "keywords": [
+            "Meeting",
+            "Lecture",
+            "Technische Universiteit Eindhoven",
+            "TU/e",
+            "TUe",
+            "Eindhoven University of Technology",
+            "University"
+        ]
+    },
+    {
+        "id": "entertainment",
+        "keywords": [
+            "borrel",
+            "dinner",
+            "drinks",
+            "entertainment",
+            "fun"
+        ]
+    },
+    {
+        "id": "sports",
+        "keywords": [
+            "badminton",
+            "basketball",
+            "bouldering",
+            "climbing",
+            "cycling",
+            "football",
+            "gym",
+            "gymming",
+            "hockey",
+            "jogging",
+            "running",
+            "sports",
+            "squash",
+            "swimming",
+            "tennis",
+            "volleyball",
+            "workout"
+        ]
+    }
+]

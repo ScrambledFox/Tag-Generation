@@ -109,9 +109,9 @@ async function getEventList(auth, calendar) {
 }
 
 /**
- * Main function
+ * Get all events
  */
-async function main() {
+async function getAndWriteAllEvents() {
   const client = await authorize();
   const calendarSources = await getCalendarList(client);
 
@@ -130,4 +130,4 @@ async function main() {
   );
 }
 
-main().catch(console.error);
+getAndWriteAllEvents().catch(console.error);
