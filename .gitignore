@@ -1,0 +1,7 @@
+.env
+
+credentials.json
+token.json
+
+node_modules/
+calendar_data/
