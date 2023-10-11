@@ -2,10 +2,16 @@ const fs = require("fs").promises;
 const path = require("path");
 const process = require("process");
 
-const PROCESSED_PATH = path.join(process.cwd(), "processed_data");
+const PROCESSED_PATH = path.join(process.cwd(), "data");
+const FILENAME = "events.json";
 
 const tags = require("./tagConfig.json");
-const events = require("./calendar_data/events.json");
+
+// Read the events from a file using fs promises api.
+async function readEvents() {
+  const events = await fs.readFile(path.join(PROCESSED_PATH, FILENAME), "utf8");
+  return JSON.parse(events);
+}
 
 function objectContainsKeyword(obj, keyword) {
   keyword = keyword.toLowerCase();
@@ -27,10 +33,9 @@ function objectContainsKeyword(obj, keyword) {
   return false;
 }
 
-function addTagsToEvents(events, tags) {
+async function addTagsToEvents(events, tags) {
   for (const event of events) {
     event.foundTags = [];
-    event.tag = "none";
 
     for (const tag of tags) {
       for (const keyword of tag.keywords) {
@@ -51,11 +56,12 @@ async function writeEvents(events) {
 }
 
 // Main function
-async function main() {
-  addTagsToEvents(events, tags);
+async function generateTags() {
+  const events = await readEvents();
+  await addTagsToEvents(events, tags);
   await writeEvents(events);
 
-  console.log("Done!");
+  console.log("Done generating tags!");
 }
 
-main();
+module.exports = generateTags;

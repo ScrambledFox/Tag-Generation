@@ -11,7 +11,9 @@ const SCOPES = ["https://www.googleapis.com/auth/calendar.readonly"];
 const CREDENTIALS_PATH = path.join(process.cwd(), "credentials.json");
 const TOKEN_PATH = path.join(process.cwd(), "token.json");
 
-const DATA_FOLDER_PATH = path.join(process.cwd(), "calendar_data");
+const DATA_FOLDER_PATH = path.join(process.cwd(), "data");
+
+const EVENT_AMOUNT = 100;
 
 async function loadSavedCredentialsIfExist() {
   try {
@@ -70,16 +72,16 @@ async function listEvents(auth) {
   const res = await calendar.events.list({
     calendarId: "primary",
     timeMin: new Date().toISOString(),
-    maxResults: 10,
+    maxResults: EVENT_AMOUNT,
     singleEvents: true,
     orderBy: "startTime",
   });
   const events = res.data.items;
   if (!events || events.length === 0) {
-    console.log("No upcoming events found.");
+    console.log("No previous events found.");
     return;
   }
-  console.log("Upcoming 10 events:");
+  console.log(`Last ${EVENT_AMOUNT} events:`);
   events.map((event, i) => {
     const start = event.start.dateTime || event.start.date;
     console.log(`${start} - ${event.summary}`);
@@ -96,8 +98,8 @@ async function getEventList(auth, calendar) {
   const api = google.calendar({ version: "v3", auth });
   const res = await api.events.list({
     calendarId: calendar.id,
-    timeMin: new Date().toISOString(),
-    maxResults: 10,
+    timeMin: new Date(2023).toISOString(),
+    maxResults: EVENT_AMOUNT,
     singleEvents: true,
     orderBy: "startTime",
   });
@@ -130,4 +132,4 @@ async function getAndWriteAllEvents() {
   );
 }
 
-getAndWriteAllEvents().catch(console.error);
+module.exports = getAndWriteAllEvents;

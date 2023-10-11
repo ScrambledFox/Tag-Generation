@@ -8,17 +8,54 @@
             "TU/e",
             "TUe",
             "Eindhoven University of Technology",
-            "University"
+            "University",
+            "Industrial Design",
+            "Toets",
+            "Finals",
+            "Exam",
+            "Natuurkunde",
+            "Scheikunde",
+            "Wiskunde",
+            "Informatica",
+            "Computer Science",
+            "Computerwetenschappen",
+            "Electrical Engineering",
+            "Physics",
+            "Calculus",
+            "economie",
+            "workshop",
+            "difficult thing",
+            "difficult things",
+            "presentatie",
+            "Deliverables"
         ]
     },
     {
         "id": "entertainment",
         "keywords": [
             "borrel",
-            "dinner",
             "drinks",
             "entertainment",
-            "fun"
+            "fun",
+            "verjaardag",
+            "party",
+            "vakantie",
+            "feest",
+            "jarig",
+            "housewarming",
+            "ameland",
+            "knights"
+        ]
+    },
+    {
+        "id": "work",
+        "keywords": [
+            "werk",
+            "werken",
+            "dominos",
+            "domino's",
+            "opbouw",
+            "GLOW"
         ]
     },
     {
@@ -41,6 +78,34 @@
             "tennis",
             "volleyball",
             "workout"
+        ]
+    },
+    {
+        "id": "traffic",
+        "keywords": [
+            "bus",
+            "car",
+            "parking",
+            "public transport",
+            "transport",
+            "travel",
+            "rijles",
+            "rijlessen",
+            "rijbewijs",
+            "rij les"
+        ]
+    },
+    {
+        "id": "food",
+        "keywords": [
+            "dinner",
+            "eten",
+            "food",
+            "lunch",
+            "meal",
+            "restaurant",
+            "snack",
+            "snacks"
         ]
     }
 ]
