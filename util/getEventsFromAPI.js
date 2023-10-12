@@ -4,7 +4,6 @@ const process = require("process");
 
 const { google } = require("googleapis");
 const { authenticate } = require("@google-cloud/local-auth");
-const { auth } = require("googleapis/build/src/apis/abusiveexperiencereport");
 
 const SCOPES = ["https://www.googleapis.com/auth/calendar.readonly"];
 
@@ -13,7 +12,7 @@ const TOKEN_PATH = path.join(process.cwd(), "token.json");
 
 const DATA_FOLDER_PATH = path.join(process.cwd(), "data");
 
-const EVENT_AMOUNT = 100;
+const EVENT_AMOUNT = 1000000;
 
 async function loadSavedCredentialsIfExist() {
   try {
@@ -95,10 +94,12 @@ async function listEvents(auth) {
  * @returns
  */
 async function getEventList(auth, calendar) {
+  const fromDate = new Date("2022-01-01");
   const api = google.calendar({ version: "v3", auth });
   const res = await api.events.list({
     calendarId: calendar.id,
-    timeMin: new Date(2023).toISOString(),
+    timeMin: fromDate.toISOString(),
+    timeMax: new Date().toISOString(),
     maxResults: EVENT_AMOUNT,
     singleEvents: true,
     orderBy: "startTime",

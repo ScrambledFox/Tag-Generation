@@ -4,4 +4,5 @@ credentials.json
 token.json
 
 node_modules/
-calendar_data/
+data/
+__pycache__/

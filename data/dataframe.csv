@@ -1,376 +1,686 @@
 DURATION,TAG,AVERAGE_HEARTRATE
-60,traffic,62.1
-90,food,89.9
-60,university,61.8
-60,university,63.2
-180,university,180.5
-60,university,56.9
-480,university,481.7
-60,university,62
-60,university,55.6
-60,university,56.2
-180,university,182.1
-150,work,252.7
-285,work,387.9
-15,university,15.1
-150,work,249.2
-60,entertainment,59
-210,work,309.2
-180,work,279
-195,work,298.9
-135,university,136.8
-60,entertainment,55.5
-360,work,462.1
-360,work,462.6
-120,university,122.1
-270,work,370.9
-120,university,124.6
-300,work,399.3
-300,work,404.4
-35,food,32
-45,university,41.3
-30,university,25.9
-70,university,74.5
-60,university,58.4
-60,university,58.6
-150,entertainment,152.7
-330,work,426.5
-60,university,55.3
-60,university,57.2
-180,university,175.8
-225,university,222
-150,university,145.3
-300,university,301
-75,university,76.2
-60,university,58
-60,university,62.3
-60,university,59
-60,university,58.8
-60,university,62.4
-60,university,56.5
-60,university,59.3
-60,university,62.8
-60,university,61
-60,university,58
-60,university,60.1
-120,work,223.6
-60,university,59.1
-60,university,55.5
-60,university,62.7
-60,university,61.2
-60,university,63.1
-60,university,64.1
-60,university,57.1
-60,university,60.3
-60,university,56.9
-60,university,63
-60,university,59.6
-60,university,58
-60,university,60.8
-60,university,58.3
-60,university,64
-60,university,57.7
-60,university,62.5
-120,university,118.6
-60,university,64.8
-60,university,60.3
-60,university,55.5
-60,university,60.1
-60,university,61.8
-60,university,59.5
-60,university,61.4
-60,university,57.9
-60,university,58.5
-60,university,56.3
-60,university,60
-60,university,63.3
-60,university,58.2
-60,university,62.3
-60,university,57.6
-60,university,64.6
-60,university,57.5
-60,university,63.5
-60,university,59.6
-60,university,61.7
-60,university,57.2
-60,work,155.4
-60,university,56.4
-60,university,63.6
-60,university,57.5
-60,university,59.2
-60,university,64.9
-60,university,62
-60,university,60
-60,university,57.4
-60,university,55.1
-60,university,60.1
-60,university,55.8
-60,university,59.9
-60,university,56.5
-60,university,62.1
-60,university,55.9
-60,university,60.6
-60,university,57.1
-60,university,57.7
-60,university,59.9
-60,university,58.2
-60,university,56.8
-180,food,176.8
-300,sports,300
-60,university,55.5
-120,university,116.3
-60,university,59.4
-60,university,55.5
-60,university,57.4
-180,university,176.9
-30,university,26.2
-180,university,181.9
-30,university,25
-120,university,120.2
-30,university,25.9
-60,university,56.6
-30,university,34.9
-30,university,25.9
-30,university,29.1
-30,university,28.3
-30,university,34.4
-30,university,32
-30,university,29
-30,university,30.6
-30,university,29.1
-30,university,31
-30,university,25.6
-30,university,32.1
-30,university,27.5
-30,university,34.2
-30,university,32.2
-30,university,34.8
-30,university,26
-30,university,28
-30,university,28.6
-30,university,30.9
-30,university,25.6
-30,university,28
-30,university,29.9
-30,university,34.2
-30,university,34.5
-30,university,32.5
-30,university,29.1
-30,university,26.3
-30,university,25.3
-30,university,34.3
-30,university,27.2
-30,university,25.9
-30,university,26.8
-30,university,31.2
-30,university,30.2
-30,university,32.4
-30,university,34.7
-30,university,25.6
-30,university,28.9
-30,university,33.8
-30,university,32.5
-30,university,25.8
-30,university,27.5
-30,university,32.3
-30,university,27
-30,university,32.9
-30,university,32.3
-30,university,26.3
-30,university,27.3
-30,university,28.7
-30,university,31.5
-30,university,25.5
-30,university,29.1
-30,university,25.8
-30,university,29.9
-30,university,30.5
-30,university,30.3
-30,university,31.5
-30,university,34.1
-30,university,34.1
-30,university,31.6
-30,university,30.7
-30,university,28.9
-30,university,28.2
-30,university,27.9
-30,university,33.1
-30,university,34.8
-30,university,30.5
-30,university,26.1
-30,university,27
-30,university,34.2
-30,university,33.1
-30,university,30.4
-30,university,27.1
-30,university,31
-30,university,26.2
-30,university,33.8
-30,university,32.4
-30,university,26.6
-30,university,28.5
-30,university,32.7
-30,university,29.2
-30,university,32.4
-30,university,31.7
-30,university,34.9
-30,university,27.1
-30,university,31.8
-30,university,25.2
-30,university,25.4
-30,university,25.3
-30,university,29.5
-30,university,30
-30,university,31.5
-30,university,33.5
-240,university,243
-660,university,659.1
-180,entertainment,180.7
-180,entertainment,184.6
-180,entertainment,179.9
-180,entertainment,178.8
-60,food,56.9
-180,entertainment,182.7
-180,entertainment,181.7
-180,entertainment,182.1
-180,entertainment,178.6
-225,entertainment,229
-180,entertainment,178.3
-180,entertainment,182.7
-180,entertainment,183.4
-180,entertainment,179.8
-180,entertainment,179.3
-180,entertainment,184
-180,entertainment,175.8
-180,entertainment,177.9
-180,entertainment,175.8
-180,entertainment,177.9
-180,entertainment,178.5
-180,entertainment,179.8
-180,entertainment,179.3
-180,entertainment,181.3
-180,entertainment,178.8
-180,entertainment,183.4
-180,entertainment,177.3
-180,entertainment,180.3
-180,entertainment,177
-180,entertainment,176.1
-180,entertainment,177.3
-180,entertainment,176.5
-180,entertainment,183.9
-180,entertainment,178.1
-180,entertainment,182.4
-180,entertainment,179.8
-180,entertainment,180.2
-180,entertainment,182.2
-180,entertainment,177
-180,entertainment,176.4
-180,entertainment,183.2
-180,entertainment,177.5
-180,entertainment,175.9
-180,entertainment,181.3
-180,entertainment,175.9
-180,entertainment,177.1
-180,entertainment,184.9
-180,entertainment,179.9
-180,entertainment,176.6
-180,entertainment,178.4
-180,entertainment,181.7
-180,entertainment,179.1
-180,entertainment,180.8
-180,entertainment,182.8
-180,entertainment,183.6
-180,entertainment,177
-180,entertainment,178.4
-180,entertainment,178.8
-180,entertainment,184
-180,entertainment,178.2
-180,entertainment,183.5
-180,entertainment,184
-180,entertainment,177.7
-180,entertainment,181.7
-180,entertainment,178.2
-180,entertainment,183.3
-180,entertainment,177.8
-180,entertainment,178.4
-180,entertainment,179.2
-180,entertainment,177.6
-180,entertainment,176.8
-180,entertainment,177.2
-180,entertainment,177.2
-180,entertainment,176.2
-180,entertainment,179.9
-180,entertainment,183.4
-180,entertainment,176.8
-180,entertainment,181.7
-180,entertainment,175.2
-180,entertainment,181.8
-180,entertainment,175.1
-180,entertainment,177.6
-180,entertainment,184
-180,entertainment,180.4
-180,entertainment,180.6
-180,entertainment,176.2
-180,entertainment,176.4
-180,entertainment,181.9
-180,entertainment,176.3
-180,entertainment,184.5
-180,entertainment,183.3
-180,entertainment,181.3
-180,entertainment,178.3
-180,entertainment,176.9
-180,entertainment,181.2
-180,entertainment,175.6
-180,entertainment,178.2
-60,university,56
-30,traffic,26.3
-30,traffic,25.3
-30,university,30.7
-30,university,33.9
-30,university,27.9
-30,university,25.2
-30,university,32
-30,university,33.1
-30,university,34.6
-30,university,31.9
-30,university,34.2
-30,university,31.6
-30,university,27.4
-30,university,27.4
-120,university,123.2
-120,university,121.9
-120,university,115.2
-120,university,122.6
-120,university,118.1
-120,university,116.5
-120,university,124.1
-120,university,120.8
-120,university,117.1
-120,university,120
-120,university,116.6
-120,university,119
-120,university,118.6
-120,university,122.8
-120,university,124
-120,university,116.6
-60,university,59
-120,university,116.8
-120,university,124.4
-120,university,117.6
-120,university,123.2
-120,university,120.2
-120,university,119
-120,university,124
-120,university,119.6
-120,university,117.2
-120,university,115.1
-0.016666666666666666,university,-0.08333333333333334
-120,university,120
-120,university,118
-120,university,124.7
-0.016666666666666666,university,-3.3833333333333337
-0.016666666666666666,university,2.316666666666667
-120,university,121.5
-120,university,124.6
-120,university,124.8
-60,university,62.4
+120,[object Object],122.1
+120,[object Object],116.4
+30,[object Object],25.6
+120,[object Object],124.3
+120,[object Object],121.7
+0.016666666666666666,[object Object],-2.8833333333333337
+120,[object Object],116.5
+0.016666666666666666,[object Object],-3.0833333333333335
+0.016666666666666666,[object Object],-1.7833333333333334
+0.016666666666666666,[object Object],-3.7833333333333337
+30,[object Object],27.9
+120,[object Object],118.3
+120,[object Object],123.9
+0.016666666666666666,[object Object],-0.08333333333333334
+0.016666666666666666,[object Object],-3.0833333333333335
+0.016666666666666666,[object Object],3.0166666666666666
+120,[object Object],124.7
+30,[object Object],32.3
+120,[object Object],120
+120,[object Object],116.9
+0.016666666666666666,[object Object],3.316666666666667
+0.016666666666666666,[object Object],2.0166666666666666
+0.016666666666666666,[object Object],0.8166666666666668
+0.016666666666666666,[object Object],-2.0833333333333335
+0.016666666666666666,[object Object],4.116666666666667
+120,[object Object],123.2
+30,[object Object],26.2
+120,[object Object],116.9
+120,[object Object],117
+0.016666666666666666,[object Object],-4.683333333333334
+0.016666666666666666,[object Object],-2.9833333333333334
+120,[object Object],120.4
+30,[object Object],26.6
+120,[object Object],123.7
+120,[object Object],121.5
+30,[object Object],30.2
+30,[object Object],28.6
+30,[object Object],26.1
+30,[object Object],28
+30,[object Object],27.9
+60,[object Object],57.8
+30,[object Object],29
+30,[object Object],26
+30,[object Object],27.8
+105,[object Object],109.7
+30,[object Object],32
+30,[object Object],31.7
+90,[object Object],86.2
+60,[object Object],64.6
+30,[object Object],25.5
+105,[object Object],109.3
+30,[object Object],30.8
+90,[object Object],93
+105,[object Object],108.5
+30,[object Object],26.3
+60,[object Object],57.3
+30,[object Object],26.7
+30,[object Object],31.2
+30,[object Object],34.4
+105,[object Object],105.3
+30,[object Object],26.1
+30,[object Object],30.3
+90,[object Object],85.9
+60,[object Object],64.5
+30,[object Object],31.5
+90,[object Object],90.4
+105,[object Object],106.3
+60,[object Object],63.5
+60,[object Object],62.1
+90,[object Object],86.7
+60,[object Object],55
+60,[object Object],60.2
+60,[object Object],61.4
+60,[object Object],55.2
+60,[object Object],61.6
+60,[object Object],55.6
+60,[object Object],63.2
+60,[object Object],59.9
+60,[object Object],61.8
+60,[object Object],62
+60,[object Object],55.9
+60,[object Object],56
+60,[object Object],57
+90,[object Object],94.7
+60,[object Object],62.7
+60,[object Object],58.3
+60,[object Object],57.8
+90,[object Object],90.6
+60,[object Object],60.4
+30,[object Object],27.8
+60,[object Object],64.6
+60,[object Object],58
+60,[object Object],60
+60,[object Object],62.7
+90,[object Object],88.6
+60,[object Object],61.1
+60,[object Object],59.1
+30,[object Object],29.9
+150,[object Object],146.9
+60,[object Object],55.2
+60,[object Object],62.7
+90,[object Object],89.1
+60,[object Object],58.3
+60,[object Object],64.1
+90,[object Object],88.7
+60,[object Object],61.9
+180,[object Object],182.7
+90,[object Object],93.3
+45,[object Object],42.9
+60,[object Object],56.4
+90,[object Object],90.6
+60,[object Object],56.2
+90,[object Object],90.9
+60,[object Object],57.6
+90,[object Object],90.8
+60,[object Object],64.8
+180,[object Object],178.7
+60,[object Object],63.8
+180,[object Object],177.7
+180,[object Object],176.3
+60,[object Object],58.7
+90,[object Object],89
+30,[object Object],34.7
+60,[object Object],61.1
+30,[object Object],25
+60,[object Object],58.3
+60,[object Object],57.1
+120,[object Object],115.1
+150,[object Object],152.4
+60,[object Object],61.3
+60,[object Object],60.1
+30,[object Object],25.9
+60,[object Object],59.1
+90,[object Object],85.3
+30,[object Object],26.3
+60,[object Object],56.4
+45,[object Object],47.3
+45,[object Object],47.2
+60,[object Object],59.5
+60,[object Object],55
+60,[object Object],60.8
+60,[object Object],62.8
+60,[object Object],57.6
+90,[object Object],85.4
+60,[object Object],56.2
+60,[object Object],60.4
+60,[object Object],60.3
+60,[object Object],57.7
+60,[object Object],63.2
+60,[object Object],60.6
+120,[object Object],122.6
+60,[object Object],63.6
+60,[object Object],61.4
+60,[object Object],63.6
+60,[object Object],56.7
+60,[object Object],59
+90,[object Object],92.8
+60,[object Object],59.8
+60,[object Object],58
+60,[object Object],61.3
+30,[object Object],31.8
+60,[object Object],64.1
+120,[object Object],122.2
+60,[object Object],57.3
+30,[object Object],29.7
+60,[object Object],55.7
+30,[object Object],30.9
+30,[object Object],32.2
+30,[object Object],26.1
+30,[object Object],32.9
+60,[object Object],59.5
+225,[object Object],229.1
+30,[object Object],25.1
+90,[object Object],86.6
+30,[object Object],30.2
+30,[object Object],34.1
+90,[object Object],90.5
+30,[object Object],33.1
+30,[object Object],29
+90,[object Object],91.8
+90,[object Object],93.2
+30,[object Object],30.9
+30,[object Object],33.4
+90,[object Object],88.1
+30,[object Object],29.2
+90,[object Object],89.5
+90,[object Object],91.6
+30,[object Object],25.1
+90,[object Object],92
+90,[object Object],92.4
+90,[object Object],85.8
+30,[object Object],29.7
+30,[object Object],26.5
+90,[object Object],88.2
+90,[object Object],93.8
+90,[object Object],87.3
+30,[object Object],25.3
+90,[object Object],86.3
+90,[object Object],93.2
+180,[object Object],176.9
+90,[object Object],85.9
+90,[object Object],90.9
+30,[object Object],31
+90,[object Object],89.2
+90,[object Object],94.8
+30,[object Object],29.6
+90,[object Object],88.5
+90,[object Object],88.1
+30,[object Object],29.3
+90,[object Object],91.3
+90,[object Object],90.7
+30,[object Object],27.1
+180,[object Object],175.6
+90,[object Object],87.5
+90,[object Object],85.3
+30,[object Object],25.2
+90,[object Object],90.4
+90,[object Object],88.4
+30,[object Object],34.3
+90,[object Object],94.5
+210,[object Object],209.4
+90,[object Object],91.2
+30,[object Object],28.2
+90,[object Object],94.6
+90,[object Object],87.9
+30,[object Object],28
+90,[object Object],89.7
+120,[object Object],116.4
+90,[object Object],90.6
+30,[object Object],27.7
+90,[object Object],86.1
+90,[object Object],85.6
+30,[object Object],25.4
+90,[object Object],90.2
+90,[object Object],92
+30,[object Object],30.5
+90,[object Object],85.1
+90,[object Object],91.5
+30,[object Object],33.7
+90,[object Object],87.7
+90,[object Object],93.1
+30,[object Object],27.4
+90,[object Object],86.1
+90,[object Object],90.6
+30,[object Object],25.2
+90,[object Object],86.2
+90,[object Object],93.7
+30,[object Object],32.8
+90,[object Object],93.4
+90,[object Object],86.3
+30,[object Object],27.1
+90,[object Object],90.8
+90,[object Object],91.9
+90,[object Object],89.6
+90,[object Object],88.9
+90,[object Object],86.4
+90,[object Object],88.4
+90,[object Object],85.1
+90,[object Object],85.1
+90,[object Object],87.2
+90,[object Object],86.7
+90,[object Object],90.4
+90,[object Object],94
+90,[object Object],91.2
+90,[object Object],91.3
+90,[object Object],88.6
+90,[object Object],88.9
+90,[object Object],86.7
+90,[object Object],92.5
+180,[object Object],183.8
+60,[object Object],58.1
+90,[object Object],91.7
+90,[object Object],87.1
+90,[object Object],88.3
+90,[object Object],93.3
+90,[object Object],92
+90,[object Object],89.5
+90,[object Object],90.2
+90,[object Object],86.8
+90,[object Object],92.6
+90,[object Object],94.8
+60,[object Object],59.9
+90,[object Object],92.1
+90,[object Object],90.2
+90,[object Object],88.8
+60,[object Object],58.6
+90,[object Object],94.4
+90,[object Object],88.7
+90,[object Object],90.3
+90,[object Object],91.7
+30,[object Object],30.4
+90,[object Object],94.6
+180,[object Object],180.8
+90,[object Object],92.4
+90,[object Object],86.5
+90,[object Object],88.5
+90,[object Object],91.1
+90,[object Object],93.8
+180,[object Object],180.1
+90,[object Object],90.7
+90,[object Object],88.2
+60,[object Object],55
+90,[object Object],87.3
+180,[object Object],177.8
+90,[object Object],91.2
+60,[object Object],62.2
+90,[object Object],88.8
+60,[object Object],60.3
+90,[object Object],91.3
+90,[object Object],90.2
+60,[object Object],58.4
+90,[object Object],89.9
+120,[object Object],116.6
+90,[object Object],92.4
+90,[object Object],86.8
+90,[object Object],91.1
+90,[object Object],94.2
+90,[object Object],90.5
+165,[object Object],167.9
+60,[object Object],60.3
+90,[object Object],92.6
+90,[object Object],90.4
+90,[object Object],92.7
+90,[object Object],85.5
+90,[object Object],94.4
+90,[object Object],85.1
+90,[object Object],87.5
+90,[object Object],92.7
+90,[object Object],87.1
+90,[object Object],94.6
+60,[object Object],58.6
+90,[object Object],88.2
+90,[object Object],93.5
+90,[object Object],87.1
+150,[object Object],153.5
+60,[object Object],57.5
+30,[object Object],26.9
+120,[object Object],123.6
+90,[object Object],93.5
+90,[object Object],86.4
+90,[object Object],86.6
+90,[object Object],87.6
+30,[object Object],30.7
+90,[object Object],94
+60,[object Object],57.8
+90,[object Object],94.4
+90,[object Object],91.9
+60,[object Object],64.6
+90,[object Object],92.8
+90,[object Object],92.3
+90,[object Object],85.2
+150,[object Object],147
+90,[object Object],91.4
+90,[object Object],90.4
+90,[object Object],88.1
+90,[object Object],89.7
+90,[object Object],92.3
+60,[object Object],60.4
+90,[object Object],89.2
+90,[object Object],85.4
+30,[object Object],33.4
+60,[object Object],60.6
+90,[object Object],89.9
+90,[object Object],92.6
+90,[object Object],90.7
+90,[object Object],91.6
+60,[object Object],56.9
+90,[object Object],87.7
+90,[object Object],88.5
+90,[object Object],93.5
+90,[object Object],91.8
+75,[object Object],74.9
+90,[object Object],85.3
+120,[object Object],120.8
+90,[object Object],90.2
+90,[object Object],90.6
+90,[object Object],91.2
+90,[object Object],94.8
+90,[object Object],85.9
+120,[object Object],115.5
+90,[object Object],92.8
+90,[object Object],93.9
+60,[object Object],60.3
+60,[object Object],57.6
+90,[object Object],92.3
+90,[object Object],91
+90,[object Object],94.3
+90,[object Object],92
+90,[object Object],93.7
+90,[object Object],85.7
+90,[object Object],85.4
+90,[object Object],94.4
+90,[object Object],85.9
+90,[object Object],93.9
+90,[object Object],86
+90,[object Object],92.7
+90,[object Object],85.4
+90,[object Object],94
+90,[object Object],94.7
+90,[object Object],94
+90,[object Object],89.4
+90,[object Object],86.3
+90,[object Object],93.5
+90,[object Object],93.8
+90,[object Object],88.1
+90,[object Object],92.4
+90,[object Object],87.1
+90,[object Object],93.4
+90,[object Object],90.2
+90,[object Object],94.3
+90,[object Object],94.7
+90,[object Object],85.6
+90,[object Object],94.6
+90,[object Object],91.9
+90,[object Object],87.5
+90,[object Object],86.3
+90,[object Object],87.3
+90,[object Object],91.7
+60,[object Object],57.3
+60,[object Object],55
+90,[object Object],86
+30,[object Object],28.2
+60,[object Object],64.9
+90,[object Object],85.1
+60,[object Object],63
+90,[object Object],93.6
+60,[object Object],55
+90,[object Object],87.2
+60,[object Object],58.4
+60,[object Object],55
+60,[object Object],59.8
+75,[object Object],79.2
+60,[object Object],60.4
+30,[object Object],32.8
+60,[object Object],57.1
+90,[object Object],91.2
+60,[object Object],56.2
+60,[object Object],59
+45,[object Object],47.7
+60,[object Object],61.9
+90,[object Object],85.3
+60,[object Object],64
+75,[object Object],79.3
+60,[object Object],57.5
+45,[object Object],42.8
+60,[object Object],57.1
+60,[object Object],57.4
+60,[object Object],62.5
+90,[object Object],93.5
+60,[object Object],63.1
+60,[object Object],56.7
+60,[object Object],56
+60,[object Object],57.8
+45,[object Object],43.7
+90,[object Object],89.4
+60,[object Object],57.3
+60,[object Object],55
+45,[object Object],46.3
+90,[object Object],91.2
+60,[object Object],63.7
+45,[object Object],49.1
+60,[object Object],58
+60,[object Object],58.6
+90,[object Object],92.5
+60,[object Object],59.1
+60,[object Object],63.9
+120,[object Object],119.7
+30,[object Object],33.3
+30,[object Object],31.8
+135,[object Object],137.4
+60,[object Object],61.6
+90,[object Object],92.2
+60,[object Object],57.1
+30,[object Object],34.7
+60,[object Object],57
+60,[object Object],60.5
+30,[object Object],32.4
+30,[object Object],27.7
+45,[object Object],48
+45,[object Object],40.7
+120,[object Object],115.1
+45,[object Object],42.2
+60,[object Object],55
+45,[object Object],41.6
+60,[object Object],63.2
+30,[object Object],32.6
+90,[object Object],86
+60,[object Object],56.8
+90,[object Object],85.4
+180,[object Object],179.7
+60,[object Object],55.1
+60,[object Object],61.2
+90,[object Object],92.1
+60,[object Object],56.8
+60,[object Object],59.9
+90,[object Object],89.3
+60,[object Object],58.3
+45,[object Object],42.6
+60,[object Object],56.3
+60,[object Object],64
+90,[object Object],94.9
+90,[object Object],92
+60,[object Object],61.2
+90,[object Object],92.7
+60,[object Object],56.6
+60,[object Object],64.7
+90,[object Object],94.4
+180,[object Object],180.6
+30,[object Object],33.8
+180,[object Object],178.8
+60,[object Object],61.8
+60,[object Object],59.6
+60,[object Object],62.1
+60,[object Object],62.6
+60,[object Object],56
+60,[object Object],57.4
+60,[object Object],60.6
+60,[object Object],63.2
+60,[object Object],64.2
+4,[object Object],5.7
+180,[object Object],176.9
+60,[object Object],57.1
+60,[object Object],55.4
+60,[object Object],57.7
+120,[object Object],121.3
+120,[object Object],121.8
+60,[object Object],58.8
+60,[object Object],61.4
+60,[object Object],61.1
+60,[object Object],60.5
+45,[object Object],44.4
+60,[object Object],56.6
+60,[object Object],58.7
+60,[object Object],60.1
+60,[object Object],59.6
+60,[object Object],56.9
+60,[object Object],59.8
+60,[object Object],56
+60,[object Object],56.2
+4,[object Object],7.7
+50,[object Object],50.8
+45,[object Object],43.2
+45,[object Object],43.1
+45,[object Object],48.3
+60,[object Object],62.5
+30,[object Object],34.5
+60,[object Object],59.5
+180,[object Object],183.4
+60,[object Object],60.1
+180,[object Object],175.9
+45,[object Object],40.3
+120,[object Object],123.1
+30,[object Object],34.2
+60,[object Object],63
+45,[object Object],44.9
+60,[object Object],61.7
+120,[object Object],123
+60,[object Object],59
+60,[object Object],60.2
+60,[object Object],63.6
+60,[object Object],57.1
+120,[object Object],119.2
+60,[object Object],64.3
+30,[object Object],25.8
+30,[object Object],31
+180,[object Object],178.1
+60,[object Object],59.4
+60,[object Object],60
+60,[object Object],62.6
+60,[object Object],64.1
+60,[object Object],57
+60,[object Object],63
+60,[object Object],57.7
+60,[object Object],59
+60,[object Object],60.2
+60,[object Object],61.4
+60,[object Object],59.7
+60,[object Object],63.5
+60,[object Object],63.7
+60,[object Object],56.1
+60,[object Object],63.4
+60,[object Object],57.8
+60,[object Object],64.5
+60,[object Object],64.7
+60,[object Object],60.5
+60,[object Object],56.3
+60,[object Object],62.5
+60,[object Object],64
+60,[object Object],59.4
+60,[object Object],56.5
+60,[object Object],62.7
+60,[object Object],60
+60,[object Object],62.2
+60,[object Object],58.8
+60,[object Object],57.4
+60,[object Object],56.4
+60,[object Object],64.7
+60,[object Object],63.9
+60,[object Object],62.3
+60,[object Object],56.8
+60,[object Object],64.8
+60,[object Object],58.7
+60,[object Object],62.1
+60,[object Object],59.3
+60,[object Object],64.8
+60,[object Object],63.8
+60,[object Object],60.9
+60,[object Object],56.6
+60,[object Object],62.1
+60,[object Object],58.3
+60,[object Object],62.8
+60,[object Object],59.4
+60,[object Object],59.1
+60,[object Object],64.2
+45,[object Object],41.1
+60,[object Object],61.8
+60,[object Object],58.8
+30,[object Object],25.5
+60,[object Object],63.3
+60,[object Object],56.9
+120,[object Object],116.2
+60,[object Object],56.3
+60,[object Object],56.3
+60,[object Object],60.3
+60,[object Object],57.4
+30,[object Object],34.6
+60,[object Object],60.1
+60,[object Object],58.4
+60,[object Object],62.2
+60,[object Object],58.7
+60,[object Object],60.3
+60,[object Object],57.7
+60,[object Object],61.1
+60,[object Object],60.6
+60,[object Object],60
+60,[object Object],63.7
+60,[object Object],64.9
+60,[object Object],62.2
+60,[object Object],60.8
+60,[object Object],64.4
+60,[object Object],62.9
+60,[object Object],60.9
+60,[object Object],63.7
+60,[object Object],55.5
+60,[object Object],58.5
+60,[object Object],59.7
+60,[object Object],64.4
+60,[object Object],62.3
+60,[object Object],60.1
+60,[object Object],64.8
+60,[object Object],61.1
+60,[object Object],55.6
+60,[object Object],61.7
+60,[object Object],57.9
+60,[object Object],64.2
+60,[object Object],61.3
+60,[object Object],64.8
+60,[object Object],64.7
+60,[object Object],56.6
+60,[object Object],61.2
+30,[object Object],33.3
+60,[object Object],64
+60,[object Object],60.8
+60,[object Object],60.8
+60,[object Object],56.1
+60,[object Object],55
+60,[object Object],58.2
+30,[object Object],34.6
+30,[object Object],25.3
+60,[object Object],59.5
+30,[object Object],34.2
+30,[object Object],27.6
+30,[object Object],25.7
+30,[object Object],26.4
+60,[object Object],62.5
+30,[object Object],26.8
+60,[object Object],56.4
+60,[object Object],61.9
+120,[object Object],117.3
+180,[object Object],184
+60,[object Object],55.7
+60,[object Object],56.9
+60,[object Object],58.4
+30,[object Object],34.2
+60,[object Object],63.2
