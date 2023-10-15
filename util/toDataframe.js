@@ -1,18 +1,5 @@
-const fs = require("fs");
-const createCsvWriter = require("csv-writer").createObjectCsvWriter;
-const path = require("path");
-const process = require("process");
-
-const PROCESSED_PATH = path.join(process.cwd(), "data");
-const FILENAME = "multiTaggedEvents.json";
-
 const { randomInt } = require("crypto");
-
-const readEvents = () => {
-  return JSON.parse(
-    fs.readFileSync(path.join(PROCESSED_PATH, FILENAME), "utf8")
-  );
-};
+const { writeDataframe, readCleanedEvents } = require("./fs");
 
 const toDataframeFormat = (events) => {
   const dataframe = [];
@@ -45,25 +32,10 @@ const toDataframeFormat = (events) => {
   return dataframe;
 };
 
-const writeToCsv = (dataframe) => {
-  const csvWriter = createCsvWriter({
-    path: path.join(process.cwd(), "data", "dataframe.csv"),
-    header: [
-      { id: "duration", title: "DURATION" },
-      { id: "tag", title: "TAG" },
-      { id: "avgh", title: "AVERAGE_HEARTRATE" },
-    ],
-  });
-
-  csvWriter.writeRecords(dataframe).then(() => {
-    console.log(`Done writing ${dataframe.length} records!`);
-  });
-};
-
 const convertToCSV = async () => {
-  const events = readEvents();
+  const events = readCleanedEvents();
   const dataframe = toDataframeFormat(events);
-  writeToCsv(dataframe);
+  writeDataframe(dataframe);
 };
 
 module.exports = convertToCSV;

@@ -31,13 +31,11 @@
         ]
     },
     {
-        "id": "stage",
-        "keywords": [],
-        "exclude": [],
-        "dateRange": {
-            "min": "2018-02-01",
-            "max": "2018-06-30"
-        }
+        "id": "bins",
+        "keywords": [
+            "bins"
+        ],
+        "exclude": ["jarig"]
     },
     {
         "id": "entertainment",
