@@ -6,7 +6,7 @@ const objectContainsKeyword = (obj, keyword, { exact = false } = {}) => {
 
   if (typeof obj == "object") {
     for (const child in obj) {
-      const doesContain = objectContainsKeyword(obj[child], keyword);
+      const doesContain = objectContainsKeyword(obj[child], keyword, {exact: exact});
 
       if (doesContain) return true;
     }
@@ -31,7 +31,8 @@ const objectContainsKeyword = (obj, keyword, { exact = false } = {}) => {
 };
 
 const eventIsInRange = (event, tag) => {
-  if (tag.dateRange === undefined) return true;
+  if (tag.dateRange === undefined || Object.keys(tag.dateRange).length === 0)
+    return true;
 
   const minTime = new Date(tag.dateRange.min);
   const maxTime = new Date(tag.dateRange.max);

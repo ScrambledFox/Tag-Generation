@@ -42,10 +42,9 @@ const cleanData = async () => {
       }
     }
   }
-  events = includedEvents;
 
   // // Calculate duration
-  for (const event of events) {
+  for (const event of includedEvents) {
     const start = new Date(event.start.dateTime);
     const end = new Date(event.end.dateTime);
 
@@ -56,12 +55,19 @@ const cleanData = async () => {
   }
 
   // Exclude events with duration < config max duration
-  events = events.filter((event) => !isNaN(event.duration));
-  events = events.filter(
+  includedEvents = includedEvents.filter((event) => !isNaN(event.duration));
+  includedEvents = includedEvents.filter(
     (event) => event.duration < config.maxEventDurationInHours
   );
 
-  events = filterEvents(events);
+  includedEvents = filterEvents(includedEvents);
+
+  console.log(
+    "Done filtering events. Events remaining: " +
+      includedEvents.length +
+      "/" +
+      events.length
+  );
 
   writeCleanedEvents(events);
 };
