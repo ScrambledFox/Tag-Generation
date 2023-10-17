@@ -69,7 +69,7 @@ const cleanData = async () => {
       events.length
   );
 
-  writeCleanedEvents(events);
+  writeCleanedEvents(includedEvents);
 };
 
 module.exports = cleanData;

@@ -66,9 +66,10 @@ const writeDataframe = (dataframe) => {
   const csvWriter = createCsvWriter({
     path: path.join(PROCESSED_PATH, DATAFRAME_FILE),
     header: [
-      { id: "duration", title: "DURATION" },
       { id: "tag", title: "TAG" },
-      { id: "avgh", title: "AVERAGE_HEARTRATE" },
+      { id: "duration", title: "DURATION" },
+      { id: "dayOfWeek", title: "DAY_OF_WEEK" },
+      { id: "hourOfDay", title: "HOUR_OF_DAY" },
     ],
   });
 

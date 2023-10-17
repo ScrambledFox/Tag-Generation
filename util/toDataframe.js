@@ -1,28 +1,27 @@
 const { randomInt } = require("crypto");
 const { writeDataframe, readCleanedEvents } = require("./fs");
+const getMostProminentTagFromEvent = require("./events");
 
 const toDataframeFormat = (events) => {
   const dataframe = [];
   for (const event of events) {
-    if (event.foundTags.length === 0) continue;
+    // Get most prominent tag
+    event.tag = getMostProminentTagFromEvent(event);
+    if (event.tag === undefined) continue;
 
-    event.tag = event.foundTags[0];
-
+    // Get start and end times
     const start = new Date(event.start.dateTime);
     const end = new Date(event.end.dateTime);
 
     // Check if start or end are NaN
     if (isNaN(start.getTime()) || isNaN(end.getTime())) continue;
 
-    const avgHeartrate =
-      (end - start) / 1000 / 60 +
-      0.1 * (randomInt(0, 100) - 50) +
-      (event.tag === "work" ? 100 : 0);
-
+    // Push data entry
     dataframe.push({
-      duration: (end - start) / 1000 / 60,
       tag: event.tag,
-      avgh: avgHeartrate,
+      duration: (end - start) / 1000 / 60,
+      dayOfWeek: start.getDay(),
+      hourOfDay: start.getHours(),
     });
   }
 
