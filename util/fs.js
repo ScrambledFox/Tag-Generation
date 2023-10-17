@@ -70,6 +70,9 @@ const writeDataframe = (dataframe) => {
       { id: "duration", title: "DURATION" },
       { id: "dayOfWeek", title: "DAY_OF_WEEK" },
       { id: "hourOfDay", title: "HOUR_OF_DAY" },
+      { id: "startTime", title: "START_TIME" },
+      { id: "endTime", title: "END_TIME" },
+      { id: "eventsPerDay", title: "EVENTS_PER_DAY" },
     ],
   });
 
