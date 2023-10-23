@@ -1,0 +1,659 @@
+[
+    {
+        "id": "exploratorySketchingCourse",
+        "keywords": [
+            "DZB120",
+            "sketching",
+            "exploratory sketching"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {
+            "min": "2021-01-01",
+            "max": "2022-03-01"
+        }
+    },
+    {
+        "id": "psychologyCourse",
+        "keywords": [
+            "0HV30",
+            "psychology",
+            "social psychology"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "deadline",
+        "keywords": [
+            "deadline",
+            "exam",
+            "deliverable"
+        ],
+        "exclude": [],
+        "exact": [
+            "STEP"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "lecture",
+        "keywords": [
+            "lecture",
+            "tutorial",
+            "workshop"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "meeting",
+        "keywords": [
+            "meeting",
+            "project"
+        ],
+        "exclude": [
+            "GACie",
+            "BorrelCie",
+            "InstaCie",
+            "lichting",
+            "WebCie",
+            "AKKA",
+            "SNA",
+            "DaddyCie",
+            "DatedinerCie"
+        ],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "presentation",
+        "keywords": [
+            "presentation",
+            "presentatie"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "workout",
+        "keywords": [
+            "workout",
+            "pushday",
+            "pullday",
+            "legday",
+            "chestday",
+            "backday",
+            "gym"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "cardio",
+        "keywords": [
+            "hardlopen",
+            "tennissen"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "volleybalGame",
+        "keywords": [
+            "wedstrijd",
+            "volleybalwedstrijd"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "volleybalPractice",
+        "keywords": [
+            "training",
+            "volleybaltraining"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "party",
+        "keywords": [
+            "borrel",
+            "diesdiner",
+            "bier",
+            "feest",
+            "feest",
+            "feesie",
+            "zuip",
+            "soos",
+            "drinken"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "choires",
+        "keywords": [
+            "breakfast",
+            "ontbijt",
+            "shower",
+            "lunch",
+            "douche"
+        ],
+        "exclude": [],
+        "exact": [
+            "was"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "designResearchCourse",
+        "keywords": [
+            "DDB100",
+            "design research",
+            "Design <> Research"
+        ],
+        "exclude": [],
+        "exact": [
+            "DR"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "exploratoryMakingCourse",
+        "keywords": [
+            "DCB220",
+            "exploratory making"
+        ],
+        "exclude": [],
+        "exact": [
+            "EM"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "designInnovationMethodsCourse",
+        "keywords": [
+            "DAB200",
+            "design innovation methods"
+        ],
+        "exclude": [],
+        "exact": [
+            "DIM"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "intelligentInteractiveProductsCourse",
+        "keywords": [
+            "DBB220",
+            "intelligent interactive products"
+        ],
+        "exclude": [],
+        "exact": [
+            "IIP"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "interculturalDesignCourse",
+        "keywords": [
+            "DCB210",
+            "intercultural"
+        ],
+        "exclude": [],
+        "exact": [
+            "ID"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "finalBachelorProject",
+        "keywords": [
+            "DPB390",
+            "final bachelor project",
+            "graduation"
+        ],
+        "exclude": [],
+        "exact": [
+            "FBP",
+            "BEP"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "constructiveDesignResearchCourse",
+        "keywords": [
+            "DCM100",
+            "constructive design research"
+        ],
+        "exclude": [],
+        "exact": [
+            "CDR"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "project1Design",
+        "keywords": [
+            "DPM115",
+            "project 1 design"
+        ],
+        "exclude": [
+            "selfstudy"
+        ],
+        "exact": [
+            "P1",
+            "M11",
+            "M1.1"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "XAICourse",
+        "keywords": [
+            "DBM140",
+            "emobodying intelligent behavior in social context"
+        ],
+        "exclude": [],
+        "exact": [
+            "XAI"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "engineeringDesignTutor",
+        "keywords": [
+            "4WBB0",
+            "engineering design"
+        ],
+        "exclude": [],
+        "exact": [
+            "ED"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "nakijken",
+        "keywords": [
+            "nakijken"
+        ],
+        "exclude": [],
+        "exact": [
+            "SSA"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "demoday",
+        "keywords": [
+            "demoday",
+            "demo day"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "haircut",
+        "keywords": [
+            "kapper"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "stan",
+        "keywords": [],
+        "exclude": [
+            "jarig"
+        ],
+        "exact": [
+            "stan",
+            "kobussen"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "ezra",
+        "keywords": [],
+        "exclude": [
+            "jarig"
+        ],
+        "exact": [
+            "ezra",
+            "ezzie"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "ssreDayActivity",
+        "keywords": [
+            "verenigingseten",
+            "drolympische spelen",
+            "ijsvrij",
+            "genootschapsdag",
+            "gestrand"
+        ],
+        "exclude": [],
+        "exact": [
+            "CDT"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "selfstudy",
+        "keywords": [
+            "assignment",
+            "exercises"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "promocie",
+        "keywords": [
+            "website design",
+            "promocie"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "rimke",
+        "keywords": [],
+        "exclude": [],
+        "exact": [
+            "rimke"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "michel",
+        "keywords": [],
+        "exclude": [
+            "jarig"
+        ],
+        "exact": [
+            "michel",
+            "mikkel",
+            "snikkel"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "anne",
+        "keywords": [],
+        "exclude": [
+            "jarig"
+        ],
+        "exact": [
+            "anne",
+            "ansko"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "camiel",
+        "keywords": [],
+        "exclude": [
+            "jarig"
+        ],
+        "exact": [
+            "camiel",
+            "camel",
+            "camice"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "marloes",
+        "keywords": [],
+        "exclude": [
+            "jarig"
+        ],
+        "exact": [
+            "marloes",
+            "loesoe",
+            "loes"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "maudi",
+        "keywords": [],
+        "exclude": [
+            "jarig"
+        ],
+        "exact": [
+            "maudi"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "thom",
+        "keywords": [],
+        "exclude": [
+            "jarig"
+        ],
+        "exact": [
+            "thom",
+            "thommy"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "kiki",
+        "keywords": [],
+        "exclude": [
+            "jarig"
+        ],
+        "exact": [
+            "kiki",
+            "kiek",
+            "kieks"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "emma",
+        "keywords": [],
+        "exclude": [
+            "jarig"
+        ],
+        "exact": [
+            "emma",
+            "emmaa",
+            "Emma",
+            "Emma/",
+            "emma/",
+            "Emmaa"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "jago",
+        "keywords": [],
+        "exclude": [
+            "jarig"
+        ],
+        "exact": [
+            "jago",
+            "jagie"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "timon",
+        "keywords": [],
+        "exclude": [
+            "jarig"
+        ],
+        "exact": [
+            "timon"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "jacobien",
+        "keywords": [],
+        "exclude": [
+            "jarig"
+        ],
+        "exact": [
+            "jacobien"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "erik",
+        "keywords": [],
+        "exclude": [
+            "jarig"
+        ],
+        "exact": [
+            "erik",
+            "eriko"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "cooking",
+        "keywords": [
+            "koken",
+            "mealprep"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "steyl",
+        "keywords": [
+            "steyl",
+            "ASV"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "calling",
+        "keywords": [
+            "bellen"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "datediner",
+        "keywords": [
+            "datediner"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "dinner",
+        "keywords": [
+            "eten",
+            "chappen",
+            "koken"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "email",
+        "keywords": [],
+        "exclude": [],
+        "exact": [
+            "mail",
+            "email",
+            "e-mail"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "internship",
+        "keywords": [
+            "internship",
+            "stage",
+            "bureau moeilijke dingen"
+        ],
+        "exclude": [],
+        "exact": [
+            "BMD"
+        ],
+        "dateRange": {
+            "min": "2022-09-01",
+            "max": "2023-02-01"
+        }
+    },
+    {
+        "id": "21dinner",
+        "keywords": [
+            "21 dinner",
+            "21 diner"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "intoTheWoods",
+        "keywords": [
+            "into the woods"
+        ],
+        "exclude": [],
+        "exact": [
+            "ITW"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "interview",
+        "keywords": [
+            "interview"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    },
+    {
+        "id": "highschoolFriends",
+        "keywords": [
+            "vvv'"
+        ],
+        "exclude": [],
+        "exact": [
+            "bois",
+            "boys"
+        ],
+        "dateRange": {}
+    },
+    {
+        "id": "vincitoriYearclub",
+        "keywords": [
+            "vinci"
+        ],
+        "exclude": [],
+        "exact": [],
+        "dateRange": {}
+    }
+]

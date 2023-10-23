@@ -1,28 +1,28 @@
 const tags = require("../config/tags.json");
-const { readRawEvents, writeTaggedEvents } = require("./fs");
+const { readRawEvents, writeTaggedEvents, writeDataframe } = require("./fs");
 
 const objectContainsKeyword = (obj, keyword, { exact = false } = {}) => {
-  if (!exact) keyword = keyword.toLowerCase();
+  keyword = keyword.toLowerCase();
 
   if (typeof obj == "object") {
     for (const child in obj) {
-      const doesContain = objectContainsKeyword(obj[child], keyword, {exact: exact});
+      const doesContain = objectContainsKeyword(obj[child], keyword, {
+        exact: exact,
+      });
 
       if (doesContain) return true;
     }
-  } else {
-    if (typeof obj == "string") {
-      if (exact) {
-        const words = obj.split(" ");
-        for (const word of words) {
-          if (word === keyword) {
-            return true;
-          }
-        }
-      } else {
-        if (obj.toLowerCase().includes(keyword)) {
+  } else if (typeof obj == "string") {
+    if (exact) {
+      for (let word of obj.split(" ")) {
+        if (word.trim().toLowerCase() === keyword) {
+          // console.log("Found keyword: " + word + " == " + keyword);
           return true;
         }
+      }
+    } else {
+      if (obj.toLowerCase().includes(keyword)) {
+        return true;
       }
     }
   }
@@ -48,7 +48,7 @@ const eventIsInRange = (event, tag) => {
 const eventContainsExcludes = (event, tag) => {
   if (tag.exclude === undefined) return false;
 
-  for (const excludeMatch in tag.exclude) {
+  for (const excludeMatch of tag.exclude) {
     if (objectContainsKeyword(event, excludeMatch, { exact: false })) {
       return true;
     }
@@ -70,12 +70,13 @@ async function checkEventsForTag(events, tags) {
       if (eventContainsExcludes(event, tag)) continue;
 
       // Check for exact matches.
-      for (const exactMatch in tag.exact) {
+      for (const exactMatch of tag.exact) {
         if (objectContainsKeyword(event, exactMatch, { exact: true })) {
           addTagToEvent(event, tag);
         }
       }
 
+      // Check for keywords.
       for (const keyword of tag.keywords) {
         if (objectContainsKeyword(event, keyword, { exact: false })) {
           addTagToEvent(event, tag);
