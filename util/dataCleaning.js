@@ -57,6 +57,9 @@ const cleanData = async () => {
   // Exclude events with duration < config max duration
   includedEvents = includedEvents.filter((event) => !isNaN(event.duration));
   includedEvents = includedEvents.filter(
+    (event) => event.duration > config.minEventDurationInHours
+  );
+  includedEvents = includedEvents.filter(
     (event) => event.duration < config.maxEventDurationInHours
   );
 

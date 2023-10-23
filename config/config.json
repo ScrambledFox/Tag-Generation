@@ -1,5 +1,6 @@
 {
-    "maxEventDurationInHours": 4,
+    "maxEventDurationInHours": 4.01,
+    "minEventDurationInHours": 0.24,
     "agendas": [
         "gerbenkoopmans01",
         "Steyl",

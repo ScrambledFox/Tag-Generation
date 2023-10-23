@@ -3,6 +3,8 @@ const path = require("path");
 
 const csvReader = require("csv-parser");
 
+const TAGS = require("../config/tags.json");
+
 const PROCESSED_PATH = path.join(process.cwd(), "data");
 const RAW_EVENTS_FILE = "events.json";
 const TAGGED_EVENTS_FILE = "taggedEvents.json";
@@ -63,10 +65,14 @@ const readDataframe = () => {
 };
 
 const writeDataframe = (dataframe) => {
+  const allTagHeaders = TAGS.map((tag) => {
+    return { id: tag.id, title: ("tag_" + tag.id).toUpperCase() };
+  });
+
   const csvWriter = createCsvWriter({
     path: path.join(PROCESSED_PATH, DATAFRAME_FILE),
     header: [
-      { id: "tag", title: "TAG" },
+      ...allTagHeaders,
       { id: "duration", title: "DURATION" },
       { id: "dayOfWeek", title: "DAY_OF_WEEK" },
       { id: "hourOfDay", title: "HOUR_OF_DAY" },

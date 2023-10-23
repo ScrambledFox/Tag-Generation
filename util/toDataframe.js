@@ -1,13 +1,24 @@
-const { randomInt } = require("crypto");
 const { writeDataframe, readCleanedEvents } = require("./fs");
-const getMostProminentTagFromEvent = require("./events");
+const TAGS = require("../config/tags.json");
 
 const toDataframeFormat = (events, eventsPerDay) => {
   const dataframe = [];
   for (const event of events) {
+    // DO MULTIPLE TAGS, SO IGNORE THIS
     // Get most prominent tag
-    event.tag = getMostProminentTagFromEvent(event);
-    if (event.tag === undefined) continue;
+    // event.tag = getMostProminentTagFromEvent(event);
+    // if (event.tag === undefined) continue;
+
+    // Skip if no tags found
+    if (event.foundTags.length === 0) continue;
+
+    // Get binary array of all tags present, so false for not present and true for present
+    const allTags = [];
+    for (const tag of TAGS) {
+      allTags[tag.id] = event.foundTags.some(
+        (foundTag) => foundTag.id === tag.id
+      );
+    }
 
     // Get start and end times
     const start = new Date(event.start.dateTime);
@@ -21,7 +32,7 @@ const toDataframeFormat = (events, eventsPerDay) => {
 
     // Push data entry
     dataframe.push({
-      tag: event.tag,
+      ...allTags,
       duration: (end - start) / 1000 / 60,
       dayOfWeek: start.getDay(),
       hourOfDay: start.getHours(),
