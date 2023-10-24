@@ -7,5 +7,6 @@ node_modules/
 
 data/
 models/model_archive/
+images/
 
 __pycache__/
